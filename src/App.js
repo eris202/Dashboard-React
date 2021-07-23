@@ -28,7 +28,7 @@ function App() {
               id="menuToClick"
             >
               <div className="overflow-hidden mt-2"></div>
-              <img
+              <img alt=""
                 style={{ width: "20px" }}
                 className="img-fluid d-inline-block"
                 src="/menu-icon.svg"
@@ -44,7 +44,7 @@ function App() {
               id="menuToClick"
             >
               <div className="overflow-hidden mt-2"></div>
-              <img
+              <img alt=""
                 style={{ width: "20px" }}
                 className="img-fluid d-inline-block"
                 src="/menu.svg"
@@ -55,9 +55,14 @@ function App() {
         </div>
 
         <Thumbnail title="Overview" />
+        <div className="px-4 mt-4 card">
+          <h3 className="title mb-0 p-3">
+            Income <span className="me-3">Expenses</span>
+          </h3>
 
+          <ChartIllustration />
+        </div>
 
-        <ChartIllustration />
         {/* popular product */}
         <div className="my-5 card mx-3">
           <h3 className="title mb-0 p-3">Popular Products</h3>
@@ -78,7 +83,7 @@ function App() {
                 {popularProducts.map((popular, index) => (
                   <tr>
                     <td>
-                      <img
+                      <img alt=""
                         className="img-fluid "
                         style={{ height: "auto", width: "30px" }}
                         src={popular.imgSrc}

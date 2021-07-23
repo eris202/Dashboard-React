@@ -7,7 +7,7 @@ export default function ChartIllustration() {
 
     var bar_ctx = document.getElementById("bar-chart").getContext("2d");
 
-    var purple_orange_gradient = "#96c1ff"
+    var purple_orange_gradient = "#96c1ff";
     //   bar_ctx.createLinearGradient(0, 0, 0, 600);
     // purple_orange_gradient.addColorStop(0, "orange");
     // purple_orange_gradient.addColorStop(1, "purple");
@@ -48,16 +48,23 @@ export default function ChartIllustration() {
             hoverBorderWidth: 0,
             hoverBorderColor: "purple",
             borderRadius: 20,
-            
+            drawBorder: false,
+            drawTicks: false,
+            width: 10,
           },
         ],
       },
       options: {
         scales: {
+        
           yAxes: [
             {
               ticks: {
-                beginAtZero: true,
+                // beginAtZero: true,
+                // display: false,
+                // backdropColor: {
+                //   // color: "red"
+                // },
               },
             },
           ],

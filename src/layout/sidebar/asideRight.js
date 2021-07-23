@@ -84,7 +84,7 @@ export default function AsideRight() {
           <div className="d-flex">
             <div className="icon-container mr-2">
               {" "}
-              <BoxIcon  />
+              <BoxIcon />
             </div>
             <div className="w-100 summary">
               <div className="float-left">Start Seller</div>
@@ -114,6 +114,7 @@ export default function AsideRight() {
                     <div className="float-left d-flex">
                       <div className="mr-2">
                         <img
+                          alt=""
                           className="img-fluid"
                           style={{ width: "25px", height: "auto" }}
                           src={soldGoods.img}
