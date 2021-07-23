@@ -4,7 +4,9 @@ body {
   font-family: $font-family-normal;
   font-size: $font-16;
 }
-
+.char{
+  height: 200;
+}
 button,
 input,
 textarea,
@@ -372,4 +374,8 @@ input {
   .parent3 {
     padding-right: 15px !important;
   }
+  .char {
+  height: 400 !important;
+}
+
 }

@@ -77,7 +77,7 @@ export default function ChartIllustration() {
 
   return (
     <div>
-      <canvas id="bar-chart" width="400" height="400"></canvas>
+      <canvas id="bar-chart" width="400" height="250" className="char"></canvas>
       {/* <canvas id="line-chart" width="400" height="400"></canvas> */}
     </div>
   );
