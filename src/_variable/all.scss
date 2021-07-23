@@ -1,0 +1,54 @@
+// reponsive viewport
+
+$ipadView: "(max-width: 768px)";
+$mobileView: "(max-width: 767px)";
+
+
+// font family
+
+@font-face {
+  font-family: Poppins;
+  src: url("../font/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Semi Bold";
+  src: url("../font/Poppins-SemiBold.ttf");
+}
+
+// font weight
+$fw600: 600;
+
+// font family
+$font-family-normal: Poppins;
+$font-family-SemiBold: "Poppins Semi Bold";
+
+// font size
+$font-11: 11px;
+$font-10: 10px;
+
+$font-12: 12px;
+
+$font-13: 13px;
+
+$font-14: 14px;
+$font-16: 16px;
+$font-17: 17px;
+
+$font-20: 20px;
+
+// color
+$primary-color: #24386c;
+$secondary-color: #337ae1;
+$color-1: #7b8db5;
+$color-2: #293a6d;
+$color-3: #8d97b2;
+$color-4: #ea5070;
+$color-5: #9b55e2;
+$color-6: #45a781;
+$color-7: #f6faff;
+$color-8: #8795b4;
+$color-9:#fef3ed;
+$color10:#e2e8fc;
+$color11: #f78747;
+$color12: #fff;
