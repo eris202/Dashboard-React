@@ -8,6 +8,7 @@ import Input from "./component/elem/input";
 import { popularProducts } from "./data/popular-product";
 import useMenu from "./context/sidemenu";
 import { useEffect } from "react";
+import ChartIllustration from "./component/view/chart";
 
 function App() {
   const { rightMenu, leftMenu } = useMenu();
@@ -55,8 +56,8 @@ function App() {
 
         <Thumbnail title="Overview" />
 
-        {/* chart */}
 
+        <ChartIllustration />
         {/* popular product */}
         <div className="my-5 card mx-3">
           <h3 className="title mb-0 p-3">Popular Products</h3>
