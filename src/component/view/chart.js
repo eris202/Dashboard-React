@@ -56,7 +56,6 @@ export default function ChartIllustration() {
       },
       options: {
         scales: {
-        
           yAxes: [
             {
               ticks: {
@@ -65,6 +64,9 @@ export default function ChartIllustration() {
                 // backdropColor: {
                 //   // color: "red"
                 // },
+              },
+              grid: {
+                borderColor: "#fff",
               },
             },
           ],

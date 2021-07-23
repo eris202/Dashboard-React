@@ -56,8 +56,8 @@ function App() {
 
         <Thumbnail title="Overview" />
         <div className="px-4 mt-4 card">
-          <h3 className="title mb-0 p-3">
-            Income <span className="me-3">Expenses</span>
+          <h3 className="title mb-0 p-3" style={{fontSize: "15px"}}>
+            Income <span className="me-3" style={{color: "#8b9ab9"}}>Expenses</span>
           </h3>
 
           <ChartIllustration />
